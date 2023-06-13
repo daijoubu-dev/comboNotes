@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,12 +12,40 @@ code {
     monospace;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: #2b2c2e;
+}
+
+.dark-mode .note{
+  background-color: #343e70;
+}
+
+.dark-mode .note.new{
+  background-color: #592020;
+}
+
+.dark-mode textarea{
+  color: gray;
+  background-color: #592020;
+}
+
+.dark-mode h1{
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  min-height: 100vh;
 }
 
 .notes-list {
@@ -27,13 +55,15 @@ code {
 }
 
 .note.new{
-  background-color: #67d7cc;
+  background-color: lightsalmon;
 }
 
 textarea{
+  color: #262626;
   border: none;
   resize: none;
-  background-color: #67d7cc;
+  background-color: lightsalmon;
+  font-family: 'Kanit', sans-serif;
 }
 
 textarea:focus{
@@ -53,7 +83,7 @@ textarea:focus{
 }
 
 .note{
-  background-color: #fef68a;
+  background-color: lightblue;
   border-radius: 10px;
   padding: 1rem;
   min-height: 250px;
@@ -67,4 +97,26 @@ textarea:focus{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon{
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input{
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+
+.search input:focus{
+  outline: none;
 }
