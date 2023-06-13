@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/comboNotes/static/css/main.25e9149b.css",
+    "main.js": "/comboNotes/static/js/main.d43db184.js",
+    "static/js/787.81dc360b.chunk.js": "/comboNotes/static/js/787.81dc360b.chunk.js",
+    "index.html": "/comboNotes/index.html",
+    "main.25e9149b.css.map": "/comboNotes/static/css/main.25e9149b.css.map",
+    "main.d43db184.js.map": "/comboNotes/static/js/main.d43db184.js.map",
+    "787.81dc360b.chunk.js.map": "/comboNotes/static/js/787.81dc360b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25e9149b.css",
+    "static/js/main.d43db184.js"
+  ]
+}
