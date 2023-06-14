@@ -15,17 +15,17 @@ Into this:
 
 ![combo](https://i.imgur.com/gRiZchx.png)
 
-- Manually enter notation (complete)
-- Paste notation (complete)
-- Save notes locally until sign-in is implemented (complete)
-- Note Search (complete)
+- (complete) Manually enter notation 
+- (complete) Paste notation 
+- (complete) Save notes locally until sign-in is implemented 
+- (complete) Note Search 
 - Edit Notes
-- Delete Notes (complete)
+- (complete) Delete Notes 
 - Export Note card
 - Drag and Drop text files (unsure if useful)
-- Choose between Vertical and Horizontal layout (complete, users can input their combos in a single line for horizontal, or with line breaks for vertical layout)
+- (complete) Choose between Vertical and Horizontal layout (users can input their combos in a single line for horizontal, or with line breaks for vertical layout)
 - Multiple game icon support
-    - Street Fighter 6 (complete)
+    - (complete) Street Fighter 6 
     - Guilty Gear Strive
     - Tekken 8
     - DBFZ
