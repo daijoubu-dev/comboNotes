@@ -63,6 +63,7 @@ const App = () => {
       <div className="container"> 
         <Header handleToggleDarkMode={setDarkMode}/>
         <Search handleSearchNote={setSearchText} />
+        {/* <EmoteMenu /> */}
         <NotesList 
           notes={
             notes.filter((note)=> 

@@ -5,7 +5,7 @@ const AddNote = ({ handleAddNote }) => {
     const [noteText, setNoteText] = useState('');
     const [noteHeader, setNoteHeader] = useState('');
 
-    const characterLimit = 300;
+    const characterLimit = 10000;
 
     const handleHeaderChange = (event) => {
         setNoteHeader(event.target.value);

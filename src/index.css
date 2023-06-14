@@ -40,7 +40,7 @@ code {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1560px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -51,7 +51,7 @@ code {
 .notes-list {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 }
 
 .note.new{
@@ -67,6 +67,29 @@ textarea{
 }
 
 textarea:focus{
+  outline: none;
+}
+
+.textarea{
+  color: #262626;
+  border: none;
+  resize: none;
+  background-color: lightsalmon;
+  font-family: 'Kanit', sans-serif;
+}
+
+.inputIcon{
+  max-width: 25px;
+  padding-left: 5px;
+  padding-top: 30px;
+  
+}
+span.inputIcon{
+  font-size: 30px;
+  
+}
+
+.textarea:focus{
   outline: none;
 }
 
