@@ -20,6 +20,7 @@ Into this:
 - Drag and Drop text files
 - Choose between Vertical and Horizontal layout 
 - Login through several services (twitch, google, steam, etc) to save notes in database
+- Live key input update to image
 
 
 ## Authors
