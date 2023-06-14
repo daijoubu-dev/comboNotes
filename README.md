@@ -10,10 +10,10 @@ An app to quickly transform hard-to-read combo notation into input icons.
 
 Quickly Transform this:
 
-    LP PC, B+HP xx QCB P-HK, J.D+MK-D+MK xx QCF HK
+    DI, B+HP xx QCF HK, DD HK
 Into this:
 
-    (insert image here)
+    ![combo](https://i.imgur.com/gRiZchx.png)
 
 - Manually enter notation
 - Paste notation
