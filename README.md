@@ -13,7 +13,7 @@ Quickly Transform this:
     DI, B+HP xx QCF HK, DD HK
 Into this:
 
-    ![combo](https://i.imgur.com/gRiZchx.png)
+![combo](https://i.imgur.com/gRiZchx.png)
 
 - Manually enter notation
 - Paste notation
