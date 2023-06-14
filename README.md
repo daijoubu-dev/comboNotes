@@ -19,6 +19,8 @@ Into this:
 - Paste notation (complete)
 - Save notes locally until sign-in is implemented (complete)
 - Note Search (complete)
+- Edit Notes
+- Delete Notes (complete)
 - Drag and Drop text files (unsure if useful)
 - Choose between Vertical and Horizontal layout (complete, users can input their combos in a single line for horizontal, or with line breaks for vertical layout)
 - Multiple game icon support
