@@ -19,6 +19,9 @@ import key_r from "../images/key-r.png";
 import key_u from "../images/key-u.png";
 import key_ul from "../images/key-ul.png";
 import key_ur from "../images/key-ur.png";
+import icon_s1 from "../images/s1.png";
+import icon_s2 from "../images/s2.png";
+import icon_s3 from "../images/s3.png";
 
 const characterMappings = {
     "1": <img src={key_dl} alt="1" className="inputIcon"/>,
@@ -36,6 +39,7 @@ const characterMappings = {
     "J": <img src={key_u} alt="7" className="inputIcon"/>,
     "C": <img src={key_d} alt="8" className="inputIcon"/>,
     "D": <img src={key_d} alt="9" className="inputIcon"/>,
+    "U": <img src={key_u} alt="7" className="inputIcon"/>,
 
     "LP": <img src={icon_punch_l} alt="4" className="inputIcon"/>,
     "MP": <img src={icon_punch_m} alt="5" className="inputIcon"/>,
@@ -47,9 +51,9 @@ const characterMappings = {
     "K": <img src={icon_kick} alt="9" className="inputIcon"/>,
 
     //FIND ICONS
-    "LVL 1": <span className="inputIcon" >LVL 1</span>,
-    "LVL 2": <span className="inputIcon" >LVL 2</span>,
-    "LVL 3": <span className="inputIcon" >LVL 3</span>,
+    "LVL 1": <img src={icon_s1} alt="LVL 1" className="inputIcon"/>,
+    "LVL 2": <img src={icon_s2} alt="LVL 2" className="inputIcon"/>,
+    "LVL 3": <img src={icon_s3} alt="LVL 3" className="inputIcon"/>,
 
     "QCF": [<img src={key_d} alt="2" className="inputIcon"/>,
             <img src={key_dr} alt="3" className="inputIcon"/>,
@@ -74,6 +78,10 @@ const characterMappings = {
     "DI": [ <img src={icon_punch_h} alt="6" className="inputIcon"/>,
             <img src={icon_kick_h} alt="9" className="inputIcon"/>
     ],
+    "DP": [ <img src={key_r} alt="6" className="inputIcon"/>,
+            <img src={key_d} alt="2" className="inputIcon"/>,
+            <img src={key_dr} alt="3" className="inputIcon"/>,
+    ]
     
     // Add more mappings as needed for other characters or combinations
   };

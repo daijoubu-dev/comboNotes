@@ -130,6 +130,14 @@ span.inputIcon{
   outline: none;
 }
 
+.searchInput{
+  width: 100%;
+}
+
+
+
+
+
 .dark-mode{
   background-color: #2b2c2e;
 }
