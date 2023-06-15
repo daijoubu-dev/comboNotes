@@ -30,14 +30,14 @@ const AddNote = ({ handleAddNote }) => {
             <textarea 
                 rows="1" 
                 cols="10" 
-                placeholder="Header"
+                placeholder="Note Title"
                 value={noteHeader}
                 onChange={handleHeaderChange}
             ></textarea>
             <textarea 
                 rows="8" 
                 cols="10" 
-                placeholder="Type to add a note..."
+                placeholder="Enter combo notation here (i.e. 236 HK + 22 KK...)"
                 value={noteText}
                 onChange={handleTextChange}
             ></textarea>

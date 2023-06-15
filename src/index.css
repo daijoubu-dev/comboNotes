@@ -5,6 +5,8 @@ body {
   font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2b2c2e;
+  color: white;
 }
 
 code {
@@ -16,27 +18,6 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.dark-mode{
-  background-color: #2b2c2e;
-}
-
-.dark-mode .note{
-  background-color: #343e70;
-}
-
-.dark-mode .note.new{
-  background-color: #592020;
-}
-
-.dark-mode textarea{
-  color: gray;
-  background-color: #592020;
-}
-
-.dark-mode h1{
-  color: white;
 }
 
 .container {
@@ -55,27 +36,30 @@ code {
 }
 
 .note.new{
-  background-color: lightsalmon;
+  background-color: #592020;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 textarea{
   color: #262626;
   border: none;
   resize: none;
-  background-color: lightsalmon;
+  background-color: #592020;
   font-family: 'Kanit', sans-serif;
+  color: white;
+}
+
+textarea::placeholder{
+  color: white;
 }
 
 textarea:focus{
   outline: none;
 }
 
-.textarea{
-  color: #262626;
-  border: none;
-  resize: none;
-  background-color: lightsalmon;
-  font-family: 'Kanit', sans-serif;
+h1 {
+  color: white;
 }
 
 .inputIcon{
@@ -106,7 +90,7 @@ span.inputIcon{
 }
 
 .note{
-  background-color: lightblue;
+  background-color:  #343e70;
   border-radius: 10px;
   padding: 1rem;
   min-height: 250px;
@@ -114,6 +98,7 @@ span.inputIcon{
   flex-direction: column;
   justify-content: space-between;
   white-space: pre-wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .note-footer{
@@ -133,6 +118,7 @@ span.inputIcon{
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 1.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search input{
@@ -142,4 +128,25 @@ span.inputIcon{
 
 .search input:focus{
   outline: none;
+}
+
+.dark-mode{
+  background-color: #2b2c2e;
+}
+
+.dark-mode .note{
+  background-color: #343e70;
+}
+
+.dark-mode .note.new{
+  background-color: #592020;
+}
+
+.dark-mode textarea{
+  color: gray;
+  background-color: #592020;
+}
+
+.dark-mode h1{
+  color: white;
 }

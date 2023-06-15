@@ -1,5 +1,5 @@
 import AddNote from "./AddNote";
-import Note from "./Note copy";
+import Note from "./Note";
 
 const NotesList = ({ notes, handleAddNote, handleDeleteNote }) => {
     return ( 
