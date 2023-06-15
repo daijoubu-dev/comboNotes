@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/comboNotes/static/css/main.5099debb.css",
+    "main.js": "/comboNotes/static/js/main.ae443b47.js",
+    "static/js/787.81dc360b.chunk.js": "/comboNotes/static/js/787.81dc360b.chunk.js",
+    "static/media/key-circle.png": "/comboNotes/static/media/key-circle.2665cc3e11f2b3475de6.png",
+    "index.html": "/comboNotes/index.html",
+    "main.5099debb.css.map": "/comboNotes/static/css/main.5099debb.css.map",
+    "main.ae443b47.js.map": "/comboNotes/static/js/main.ae443b47.js.map",
+    "787.81dc360b.chunk.js.map": "/comboNotes/static/js/787.81dc360b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5099debb.css",
+    "static/js/main.ae443b47.js"
+  ]
+}
