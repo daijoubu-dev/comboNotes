@@ -21,6 +21,7 @@ Into this:
 - (complete) Note Search 
 - Edit Notes
 - (complete) Delete Notes 
+- Escape characters so users can type numbers and letters
 - Export Note card
 - Drag and Drop text files (unsure if useful)
 - (complete) Choose between Vertical and Horizontal layout (users can input their combos in a single line for horizontal, or with line breaks for vertical layout)
