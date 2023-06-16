@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/comboNotes/static/css/main.c3fa105b.css",
-    "main.js": "/comboNotes/static/js/main.4c4bf8a0.js",
+    "main.css": "/comboNotes/static/css/main.996d658c.css",
+    "main.js": "/comboNotes/static/js/main.c9d1ae85.js",
     "static/js/787.81dc360b.chunk.js": "/comboNotes/static/js/787.81dc360b.chunk.js",
+    "static/media/logo.png": "/comboNotes/static/media/logo.502e4da16c1a3072f3b7.png",
     "static/media/s3.png": "/comboNotes/static/media/s3.2de236886fe795cd0ee5.png",
     "static/media/s2.png": "/comboNotes/static/media/s2.b67e1624b37a8b52356c.png",
     "static/media/key-circle.png": "/comboNotes/static/media/key-circle.2665cc3e11f2b3475de6.png",
     "static/media/s1.png": "/comboNotes/static/media/s1.f83795529b143c973388.png",
     "index.html": "/comboNotes/index.html",
-    "main.c3fa105b.css.map": "/comboNotes/static/css/main.c3fa105b.css.map",
-    "main.4c4bf8a0.js.map": "/comboNotes/static/js/main.4c4bf8a0.js.map",
+    "main.996d658c.css.map": "/comboNotes/static/css/main.996d658c.css.map",
+    "main.c9d1ae85.js.map": "/comboNotes/static/js/main.c9d1ae85.js.map",
     "787.81dc360b.chunk.js.map": "/comboNotes/static/js/787.81dc360b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3fa105b.css",
-    "static/js/main.4c4bf8a0.js"
+    "static/css/main.996d658c.css",
+    "static/js/main.c9d1ae85.js"
   ]
 }
