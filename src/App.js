@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid';
 import NotesList from "./components/NotesList";
 import Search from "./components/Search";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   //STATE OBJECTS
@@ -59,19 +60,22 @@ const App = () => {
 
   return (
     // if darkmode then add dark-mode class
-    <div className="container"> 
+    <div>
       <Header/>
-      <Search handleSearchNote={setSearchText} />
-      {/* <EmoteMenu /> */}
-      <NotesList 
-        notes={
-          notes.filter((note)=> 
-          note.text.toLowerCase().includes(searchText) || note.header.toLowerCase().includes(searchText)
-          )
-        }
-        handleAddNote={addNote}
-        handleDeleteNote={deleteNote}
-      />
+      <div className="container"> 
+        <Search handleSearchNote={setSearchText} />
+        {/* <EmoteMenu /> */}
+        <NotesList 
+          notes={
+            notes.filter((note)=> 
+            note.text.toLowerCase().includes(searchText) || note.header.toLowerCase().includes(searchText)
+            )
+          }
+          handleAddNote={addNote}
+          handleDeleteNote={deleteNote}
+        />
+        <Footer/>
+      </div>
     </div>
     
   )

@@ -1,9 +1,12 @@
 import React from "react";
+import logoImg from "../images/logo.png"
 
-const Header = ({handleToggleDarkMode}) => {
+const Header = () => {
     return (
         <div className="header">
-            <h1>ComboNotes</h1>
+            <div />
+            <img src={logoImg} alt="ComboNotes" className="logo"/>
+            <div />
         </div>
     )
 }
