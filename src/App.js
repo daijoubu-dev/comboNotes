@@ -11,7 +11,7 @@ const App = () => {
     {
       id: nanoid(),
       header: "Example Note",
-      text: "combo here",
+      text: "214 KK + DD MK",
       date: "12/06/2023"
     },
   ]);
