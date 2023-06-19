@@ -3,7 +3,7 @@
 
 An app to quickly transform hard-to-read combo notation into input icons. Put it up on your second monitor and start labbing!
 
-Tri it here: ![](https://tallgermanguy.github.io/comboNotes/)
+Tri it ![here:](https://tallgermanguy.github.io/comboNotes/)
 
 
 
