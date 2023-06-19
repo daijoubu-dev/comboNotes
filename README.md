@@ -39,5 +39,5 @@ Into this:
 
 ## Authors
 
-- [@tallgermanguy](https://www.github.com/daijoubu-dev)
+- [@daijoubu-dev](https://www.github.com/daijoubu-dev)
 
