@@ -20,7 +20,7 @@ Into this:
 - (complete) Paste notation 
 - (complete) Save notes locally until sign-in is implemented 
 - (complete) Note Search 
-- Edit Notes
+- (WIP) Edit Notes
 - (complete) Delete Notes 
 - Escape characters so users can type numbers and letters
 - Export Note card
