@@ -58,7 +58,14 @@ const App = () => {
     setNotes(newNotes);
   }
   const editNote = (id) => {
-    
+    const noteToEdit = notes.filter((note)=> note.id == id);
+    console.log(noteToEdit);
+
+    //fill into newNote textareas
+    //make cancel edit button visible
+    //delete note that was clicked
+    //if user hits save, just delete previous note, readd it. 
+    //if user cancels edit, readd it
   }
 
   return (
@@ -67,7 +74,6 @@ const App = () => {
       <Header/>
       <div className="container"> 
         <Search handleSearchNote={setSearchText} />
-        {/* <EmoteMenu /> */}
         <NotesList 
           notes={
             notes.filter((note)=> 

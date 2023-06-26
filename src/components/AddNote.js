@@ -25,6 +25,11 @@ const AddNote = ({ handleAddNote }) => {
         }
     };
 
+    const handleCancelEditClick = () => {
+            setNoteHeader('');;
+            setNoteText('');;
+    }
+
     return (
         <div className="note new">
             <textarea 
@@ -43,6 +48,7 @@ const AddNote = ({ handleAddNote }) => {
             ></textarea>
             <div className="note-footer">
                 <small>{characterLimit - noteText.length} Remaining</small>
+                <button className="cancelEdit" onClick={handleCancelEditClick} >Cancel Edit</button>
                 <button className="save" onClick={handleSaveClick}>Save</button>
             </div>
         </div>
