@@ -1,4 +1,5 @@
 import { MdDeleteForever } from "react-icons/md";
+import { MdEditNote } from "react-icons/md"
 import icon_kick from "../images/icon_kick.png";
 import icon_kick_h from "../images/icon_kick_h.png";
 import icon_kick_l from "../images/icon_kick_l.png";
@@ -127,11 +128,16 @@ const renderElements = (text) => {
     return elements;
   };
 
-const Note = ({ id, header, delimiter, text, date, handleDeleteNote }) => {
+const Note = ({ id, header, delimiter, text, date, handleDeleteNote, handleEditNote }) => {
   return (
     <div className="note">
       <div className="note-header">
         <h2>{header}</h2>
+        <MdEditNote
+          onClick={() => handleEditNote(id)}
+          className="edit-icon"
+          size={"1.5em"}
+        />
       </div>
       <div>{renderElements(text)}</div>
       <div className="note-footer">

@@ -57,6 +57,9 @@ const App = () => {
     const newNotes = notes.filter((note)=> note.id !== id);
     setNotes(newNotes);
   }
+  const editNote = (id) => {
+    
+  }
 
   return (
     // if darkmode then add dark-mode class
@@ -73,6 +76,7 @@ const App = () => {
           }
           handleAddNote={addNote}
           handleDeleteNote={deleteNote}
+          handleEditNote={editNote}
         />
         <Footer/>
       </div>
